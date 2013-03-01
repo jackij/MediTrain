@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67CD3248162668350023D5CE /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CD3247162668350023D5CE /* DropboxSDK.framework */; };
+		9B07889215769F2300F64F82 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B07889115769F2300F64F82 /* Security.framework */; };
+		9B07889415769F5400F64F82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B07889315769F5400F64F82 /* QuartzCore.framework */; };
+		9B0788991576A13D00F64F82 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0788951576A13D00F64F82 /* blueButton.png */; };
+		9B07889A1576A13D00F64F82 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0788961576A13D00F64F82 /* blueButton@2x.png */; };
+		9B07889B1576A13D00F64F82 /* blueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0788971576A13D00F64F82 /* blueButtonHighlight.png */; };
+		9B07889C1576A13D00F64F82 /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B0788981576A13D00F64F82 /* blueButtonHighlight@2x.png */; };
+		9B187FA015312978001975D8 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B187F9F15312978001975D8 /* Data.m */; };
+		9B296D4715764AB6000E6B33 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B296D4615764AB6000E6B33 /* AVFoundation.framework */; };
+		9B8A6C3B1574F4E200F706A3 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8A6C3A1574F4E200F706A3 /* background.png */; };
+		9B8A6C431575102200F706A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8A6C421575102200F706A3 /* AudioToolbox.framework */; };
+		9B8A6C471575192000F706A3 /* Chime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B8A6C461575192000F706A3 /* Chime.wav */; };
+		9B8C9914150A1BFB00FF49A6 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C9913150A1BFB00FF49A6 /* IntroViewController.m */; };
+		9BB11BE2150AA809008C59BE /* MeditationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB11BE1150AA809008C59BE /* MeditationViewController.m */; };
+		9BB11BF9150AAD46008C59BE /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BB11BF8150AAD46008C59BE /* Data.plist */; };
+		9BD7EB1815B4F167000D623D /* FirstTimeUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD7EB1715B4F167000D623D /* FirstTimeUser.m */; };
+		9BE8F9321574E4FF00221B0C /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8F9301574E4FF00221B0C /* blackButton@2x.png */; };
+		9BE8F9331574E4FF00221B0C /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8F9311574E4FF00221B0C /* blackButtonHighlight@2x.png */; };
+		9BE8F9361574E51500221B0C /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8F9341574E51500221B0C /* blackButton.png */; };
+		9BE8F9371574E51500221B0C /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8F9351574E51500221B0C /* blackButtonHighlight.png */; };
+		9BEBE01114E274FC0035F2FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE01014E274FC0035F2FF /* UIKit.framework */; };
+		9BEBE01314E274FC0035F2FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE01214E274FC0035F2FF /* Foundation.framework */; };
+		9BEBE01514E274FC0035F2FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE01414E274FC0035F2FF /* CoreGraphics.framework */; };
+		9BEBE01714E274FC0035F2FF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE01614E274FC0035F2FF /* CoreData.framework */; };
+		9BEBE01D14E274FC0035F2FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBE01B14E274FC0035F2FF /* InfoPlist.strings */; };
+		9BEBE01F14E274FC0035F2FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBE01E14E274FC0035F2FF /* main.m */; };
+		9BEBE02314E274FC0035F2FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBE02214E274FC0035F2FF /* AppDelegate.m */; };
+		9BEBE02E14E274FC0035F2FF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE02D14E274FC0035F2FF /* SenTestingKit.framework */; };
+		9BEBE02F14E274FC0035F2FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE01014E274FC0035F2FF /* UIKit.framework */; };
+		9BEBE03014E274FC0035F2FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE01214E274FC0035F2FF /* Foundation.framework */; };
+		9BEBE03114E274FC0035F2FF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEBE01614E274FC0035F2FF /* CoreData.framework */; };
+		9BEBE03914E274FC0035F2FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBE03714E274FC0035F2FF /* InfoPlist.strings */; };
+		9BEBE03C14E274FC0035F2FF /* MindfulnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBE03B14E274FC0035F2FF /* MindfulnessTests.m */; };
+		9BEBE04614E275440035F2FF /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBE04514E275440035F2FF /* Logo.png */; };
+		9BEBE09C14E27C270035F2FF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BEBE09B14E27C270035F2FF /* Storyboard.storyboard */; };
+		9BEBE0EF14E313180035F2FF /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBE0EE14E313180035F2FF /* SurveyViewController.m */; };
+		9BEBE0F214E320670035F2FF /* EndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEBE0F114E320670035F2FF /* EndViewController.m */; };
+		F160B8E31680F1F0007C3EA5 /* barGrapher.m in Sources */ = {isa = PBXBuildFile; fileRef = F160B8E21680F1F0007C3EA5 /* barGrapher.m */; };
+		F18D04831679574500699E50 /* StoryboardiPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18D04821679574500699E50 /* StoryboardiPhone.storyboard */; };
+		F1F1614E16D5BB0F00A67B92 /* bell4.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1F1614D16D5BB0F00A67B92 /* bell4.wav */; };
+		F1FDB2FB167A5F6C00FB2CC7 /* endTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FDB2FA167A5F6C00FB2CC7 /* endTrialViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BEBE03214E274FC0035F2FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BEBE00314E274FC0035F2FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BEBE00B14E274FC0035F2FF;
+			remoteInfo = Mindfulness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67CD3247162668350023D5CE /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		9B07889115769F2300F64F82 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9B07889315769F5400F64F82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B0788951576A13D00F64F82 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		9B0788961576A13D00F64F82 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		9B0788971576A13D00F64F82 /* blueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonHighlight.png; sourceTree = "<group>"; };
+		9B0788981576A13D00F64F82 /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		9B187F9E15312978001975D8 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		9B187F9F15312978001975D8 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		9B296D4615764AB6000E6B33 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B49E512150A4F4B0074215D /* MediTrain-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MediTrain-Info.plist"; sourceTree = "<group>"; };
+		9B8A6C3A1574F4E200F706A3 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		9B8A6C421575102200F706A3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9B8A6C461575192000F706A3 /* Chime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chime.wav; sourceTree = "<group>"; };
+		9B8C9912150A1BFB00FF49A6 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		9B8C9913150A1BFB00FF49A6 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		9BB11BE0150AA809008C59BE /* MeditationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeditationViewController.h; path = ../MeditationViewController.h; sourceTree = "<group>"; };
+		9BB11BE1150AA809008C59BE /* MeditationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeditationViewController.m; path = ../MeditationViewController.m; sourceTree = "<group>"; };
+		9BB11BF8150AAD46008C59BE /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Data.plist; path = ../Data.plist; sourceTree = "<group>"; };
+		9BD7EB1615B4F167000D623D /* FirstTimeUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTimeUser.h; sourceTree = "<group>"; };
+		9BD7EB1715B4F167000D623D /* FirstTimeUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTimeUser.m; sourceTree = "<group>"; };
+		9BE8F9301574E4FF00221B0C /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		9BE8F9311574E4FF00221B0C /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		9BE8F9341574E51500221B0C /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		9BE8F9351574E51500221B0C /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		9BEBE00C14E274FC0035F2FF /* MediTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEBE01014E274FC0035F2FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BEBE01214E274FC0035F2FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BEBE01414E274FC0035F2FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BEBE01614E274FC0035F2FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9BEBE01C14E274FC0035F2FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BEBE01E14E274FC0035F2FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BEBE02014E274FC0035F2FF /* MediTrain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediTrain-Prefix.pch"; sourceTree = "<group>"; };
+		9BEBE02114E274FC0035F2FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BEBE02214E274FC0035F2FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BEBE02C14E274FC0035F2FF /* MediTrainTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediTrainTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BEBE02D14E274FC0035F2FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9BEBE03614E274FC0035F2FF /* MediTrainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediTrainTests-Info.plist"; sourceTree = "<group>"; };
+		9BEBE03814E274FC0035F2FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BEBE03A14E274FC0035F2FF /* MindfulnessTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MindfulnessTests.h; sourceTree = "<group>"; };
+		9BEBE03B14E274FC0035F2FF /* MindfulnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindfulnessTests.m; sourceTree = "<group>"; };
+		9BEBE04514E275440035F2FF /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		9BEBE09B14E27C270035F2FF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		9BEBE0ED14E313180035F2FF /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
+		9BEBE0EE14E313180035F2FF /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
+		9BEBE0F014E320670035F2FF /* EndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndViewController.h; sourceTree = "<group>"; };
+		9BEBE0F114E320670035F2FF /* EndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndViewController.m; sourceTree = "<group>"; };
+		F160B8E11680F1F0007C3EA5 /* barGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barGrapher.h; sourceTree = "<group>"; };
+		F160B8E21680F1F0007C3EA5 /* barGrapher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = barGrapher.m; sourceTree = "<group>"; };
+		F18D04821679574500699E50 /* StoryboardiPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StoryboardiPhone.storyboard; path = ../StoryboardiPhone.storyboard; sourceTree = "<group>"; };
+		F1F1614D16D5BB0F00A67B92 /* bell4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bell4.wav; path = MindfulnessTests/bell4.wav; sourceTree = SOURCE_ROOT; };
+		F1FDB2F9167A5F6C00FB2CC7 /* endTrialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endTrialViewController.h; sourceTree = "<group>"; };
+		F1FDB2FA167A5F6C00FB2CC7 /* endTrialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = endTrialViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BEBE00914E274FC0035F2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B07889415769F5400F64F82 /* QuartzCore.framework in Frameworks */,
+				9B07889215769F2300F64F82 /* Security.framework in Frameworks */,
+				9B296D4715764AB6000E6B33 /* AVFoundation.framework in Frameworks */,
+				9B8A6C431575102200F706A3 /* AudioToolbox.framework in Frameworks */,
+				9BEBE01114E274FC0035F2FF /* UIKit.framework in Frameworks */,
+				9BEBE01314E274FC0035F2FF /* Foundation.framework in Frameworks */,
+				9BEBE01514E274FC0035F2FF /* CoreGraphics.framework in Frameworks */,
+				9BEBE01714E274FC0035F2FF /* CoreData.framework in Frameworks */,
+				67CD3248162668350023D5CE /* DropboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEBE02814E274FC0035F2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBE02E14E274FC0035F2FF /* SenTestingKit.framework in Frameworks */,
+				9BEBE02F14E274FC0035F2FF /* UIKit.framework in Frameworks */,
+				9BEBE03014E274FC0035F2FF /* Foundation.framework in Frameworks */,
+				9BEBE03114E274FC0035F2FF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BE8F92B1574DFC600221B0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B0788951576A13D00F64F82 /* blueButton.png */,
+				9B0788961576A13D00F64F82 /* blueButton@2x.png */,
+				F1F1614D16D5BB0F00A67B92 /* bell4.wav */,
+				9B0788971576A13D00F64F82 /* blueButtonHighlight.png */,
+				9B0788981576A13D00F64F82 /* blueButtonHighlight@2x.png */,
+				9B8A6C461575192000F706A3 /* Chime.wav */,
+				9BE8F9301574E4FF00221B0C /* blackButton@2x.png */,
+				9BE8F9341574E51500221B0C /* blackButton.png */,
+				9BE8F9351574E51500221B0C /* blackButtonHighlight.png */,
+				9BE8F9311574E4FF00221B0C /* blackButtonHighlight@2x.png */,
+				9B8A6C3A1574F4E200F706A3 /* background.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9BEBE00114E274FC0035F2FF = {
+			isa = PBXGroup;
+			children = (
+				9BEBE04514E275440035F2FF /* Logo.png */,
+				9BEBE01814E274FC0035F2FF /* MediTrain */,
+				9BEBE03414E274FC0035F2FF /* MediTrainTests */,
+				9BEBE00F14E274FC0035F2FF /* Frameworks */,
+				9BEBE00D14E274FC0035F2FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BEBE00D14E274FC0035F2FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BEBE00C14E274FC0035F2FF /* MediTrain.app */,
+				9BEBE02C14E274FC0035F2FF /* MediTrainTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BEBE00F14E274FC0035F2FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67CD3247162668350023D5CE /* DropboxSDK.framework */,
+				9B07889315769F5400F64F82 /* QuartzCore.framework */,
+				9B07889115769F2300F64F82 /* Security.framework */,
+				9B296D4615764AB6000E6B33 /* AVFoundation.framework */,
+				9B8A6C421575102200F706A3 /* AudioToolbox.framework */,
+				9BEBE01014E274FC0035F2FF /* UIKit.framework */,
+				9BEBE01214E274FC0035F2FF /* Foundation.framework */,
+				9BEBE01414E274FC0035F2FF /* CoreGraphics.framework */,
+				9BEBE01614E274FC0035F2FF /* CoreData.framework */,
+				9BEBE02D14E274FC0035F2FF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BEBE01814E274FC0035F2FF /* MediTrain */ = {
+			isa = PBXGroup;
+			children = (
+				9BE8F92B1574DFC600221B0C /* Resources */,
+				9BEBE02114E274FC0035F2FF /* AppDelegate.h */,
+				9BEBE02214E274FC0035F2FF /* AppDelegate.m */,
+				9B187F9E15312978001975D8 /* Data.h */,
+				9B187F9F15312978001975D8 /* Data.m */,
+				9BEBE01914E274FC0035F2FF /* Supporting Files */,
+			);
+			name = MediTrain;
+			path = Mindfulness;
+			sourceTree = "<group>";
+		};
+		9BEBE01914E274FC0035F2FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18D04821679574500699E50 /* StoryboardiPhone.storyboard */,
+				9BEBE09B14E27C270035F2FF /* Storyboard.storyboard */,
+				9BEBE01B14E274FC0035F2FF /* InfoPlist.strings */,
+				9B49E512150A4F4B0074215D /* MediTrain-Info.plist */,
+				9BEBE01E14E274FC0035F2FF /* main.m */,
+				9BEBE02014E274FC0035F2FF /* MediTrain-Prefix.pch */,
+				9BD7EB1615B4F167000D623D /* FirstTimeUser.h */,
+				9BD7EB1715B4F167000D623D /* FirstTimeUser.m */,
+				9B8C9912150A1BFB00FF49A6 /* IntroViewController.h */,
+				9B8C9913150A1BFB00FF49A6 /* IntroViewController.m */,
+				9BB11BE0150AA809008C59BE /* MeditationViewController.h */,
+				9BB11BE1150AA809008C59BE /* MeditationViewController.m */,
+				9BEBE0ED14E313180035F2FF /* SurveyViewController.h */,
+				9BEBE0EE14E313180035F2FF /* SurveyViewController.m */,
+				F1FDB2F9167A5F6C00FB2CC7 /* endTrialViewController.h */,
+				F1FDB2FA167A5F6C00FB2CC7 /* endTrialViewController.m */,
+				9BEBE0F014E320670035F2FF /* EndViewController.h */,
+				9BEBE0F114E320670035F2FF /* EndViewController.m */,
+				F160B8E11680F1F0007C3EA5 /* barGrapher.h */,
+				F160B8E21680F1F0007C3EA5 /* barGrapher.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BEBE03414E274FC0035F2FF /* MediTrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BEBE03A14E274FC0035F2FF /* MindfulnessTests.h */,
+				9BEBE03B14E274FC0035F2FF /* MindfulnessTests.m */,
+				9BEBE03514E274FC0035F2FF /* Supporting Files */,
+			);
+			name = MediTrainTests;
+			path = MindfulnessTests;
+			sourceTree = "<group>";
+		};
+		9BEBE03514E274FC0035F2FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BEBE03614E274FC0035F2FF /* MediTrainTests-Info.plist */,
+				9BB11BF8150AAD46008C59BE /* Data.plist */,
+				9BEBE03714E274FC0035F2FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BEBE00B14E274FC0035F2FF /* MediTrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEBE03F14E274FC0035F2FF /* Build configuration list for PBXNativeTarget "MediTrain" */;
+			buildPhases = (
+				9BEBE00814E274FC0035F2FF /* Sources */,
+				9BEBE00914E274FC0035F2FF /* Frameworks */,
+				9BEBE00A14E274FC0035F2FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediTrain;
+			productName = Mindfulness;
+			productReference = 9BEBE00C14E274FC0035F2FF /* MediTrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BEBE02B14E274FC0035F2FF /* MediTrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEBE04214E274FC0035F2FF /* Build configuration list for PBXNativeTarget "MediTrainTests" */;
+			buildPhases = (
+				9BEBE02714E274FC0035F2FF /* Sources */,
+				9BEBE02814E274FC0035F2FF /* Frameworks */,
+				9BEBE02914E274FC0035F2FF /* Resources */,
+				9BEBE02A14E274FC0035F2FF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BEBE03314E274FC0035F2FF /* PBXTargetDependency */,
+			);
+			name = MediTrainTests;
+			productName = MindfulnessTests;
+			productReference = 9BEBE02C14E274FC0035F2FF /* MediTrainTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BEBE00314E274FC0035F2FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9BEBE00614E274FC0035F2FF /* Build configuration list for PBXProject "MediTrain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BEBE00114E274FC0035F2FF;
+			productRefGroup = 9BEBE00D14E274FC0035F2FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BEBE00B14E274FC0035F2FF /* MediTrain */,
+				9BEBE02B14E274FC0035F2FF /* MediTrainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BEBE00A14E274FC0035F2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBE01D14E274FC0035F2FF /* InfoPlist.strings in Resources */,
+				9BEBE04614E275440035F2FF /* Logo.png in Resources */,
+				9BEBE09C14E27C270035F2FF /* Storyboard.storyboard in Resources */,
+				9BB11BF9150AAD46008C59BE /* Data.plist in Resources */,
+				9BE8F9321574E4FF00221B0C /* blackButton@2x.png in Resources */,
+				9BE8F9331574E4FF00221B0C /* blackButtonHighlight@2x.png in Resources */,
+				9BE8F9361574E51500221B0C /* blackButton.png in Resources */,
+				9BE8F9371574E51500221B0C /* blackButtonHighlight.png in Resources */,
+				9B8A6C3B1574F4E200F706A3 /* background.png in Resources */,
+				9B8A6C471575192000F706A3 /* Chime.wav in Resources */,
+				9B0788991576A13D00F64F82 /* blueButton.png in Resources */,
+				9B07889A1576A13D00F64F82 /* blueButton@2x.png in Resources */,
+				9B07889B1576A13D00F64F82 /* blueButtonHighlight.png in Resources */,
+				9B07889C1576A13D00F64F82 /* blueButtonHighlight@2x.png in Resources */,
+				F18D04831679574500699E50 /* StoryboardiPhone.storyboard in Resources */,
+				F1F1614E16D5BB0F00A67B92 /* bell4.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEBE02914E274FC0035F2FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBE03914E274FC0035F2FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BEBE02A14E274FC0035F2FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BEBE00814E274FC0035F2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBE01F14E274FC0035F2FF /* main.m in Sources */,
+				9BEBE02314E274FC0035F2FF /* AppDelegate.m in Sources */,
+				9BEBE0EF14E313180035F2FF /* SurveyViewController.m in Sources */,
+				9BEBE0F214E320670035F2FF /* EndViewController.m in Sources */,
+				9B8C9914150A1BFB00FF49A6 /* IntroViewController.m in Sources */,
+				9BB11BE2150AA809008C59BE /* MeditationViewController.m in Sources */,
+				9B187FA015312978001975D8 /* Data.m in Sources */,
+				9BD7EB1815B4F167000D623D /* FirstTimeUser.m in Sources */,
+				F1FDB2FB167A5F6C00FB2CC7 /* endTrialViewController.m in Sources */,
+				F160B8E31680F1F0007C3EA5 /* barGrapher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEBE02714E274FC0035F2FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEBE03C14E274FC0035F2FF /* MindfulnessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BEBE03314E274FC0035F2FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BEBE00B14E274FC0035F2FF /* MediTrain */;
+			targetProxy = 9BEBE03214E274FC0035F2FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BEBE01B14E274FC0035F2FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BEBE01C14E274FC0035F2FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BEBE03714E274FC0035F2FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BEBE03814E274FC0035F2FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BEBE03D14E274FC0035F2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9BEBE03E14E274FC0035F2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BEBE04014E274FC0035F2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mindfulness/MediTrain-Prefix.pch";
+				INFOPLIST_FILE = "Mindfulness/MediTrain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BEBE04114E274FC0035F2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mindfulness/MediTrain-Prefix.pch";
+				INFOPLIST_FILE = "Mindfulness/MediTrain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9BEBE04314E274FC0035F2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mindfulness.app/Mindfulness";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mindfulness/Mindfulness-Prefix.pch";
+				INFOPLIST_FILE = "MindfulnessTests/MediTrainTests-Info.plist";
+				PRODUCT_NAME = MediTrainTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9BEBE04414E274FC0035F2FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mindfulness.app/Mindfulness";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mindfulness/Mindfulness-Prefix.pch";
+				INFOPLIST_FILE = "MindfulnessTests/MediTrainTests-Info.plist";
+				PRODUCT_NAME = MediTrainTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BEBE00614E274FC0035F2FF /* Build configuration list for PBXProject "MediTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEBE03D14E274FC0035F2FF /* Debug */,
+				9BEBE03E14E274FC0035F2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEBE03F14E274FC0035F2FF /* Build configuration list for PBXNativeTarget "MediTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEBE04014E274FC0035F2FF /* Debug */,
+				9BEBE04114E274FC0035F2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEBE04214E274FC0035F2FF /* Build configuration list for PBXNativeTarget "MediTrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BEBE04314E274FC0035F2FF /* Debug */,
+				9BEBE04414E274FC0035F2FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BEBE00314E274FC0035F2FF /* Project object */;
+}
